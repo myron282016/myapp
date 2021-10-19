@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +31,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+td, th {
+  border: 1px solid black;
+  padding: 10px
+}
+
+table{
+  border-collapse: collapse;
+}
+
+
+.body-column{
+  width: 150px
+
+}
+
+#app-title {
+  padding: 10px;
+  background: red;
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#app-title form {
+  display: flex;
+  gap: 10px;
+  background: none;
+}
+
+table {
+  background: lightgray;
 }
